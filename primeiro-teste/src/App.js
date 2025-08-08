@@ -1,11 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import HelloWorld from './components/HelloWorld';
+import Frase from './components/Frase';
+import DigaMeuNome from './components/DigaMeuNome';
 
 function App() {
   return (
     <div className="App">
     <h1>Meu app react</h1>
-    <p>wake up its first the of month!!</p>
+      <Frase/>
+      <HelloWorld/>
+      <Frase/>
+      <DigaMeuNome nome="pietro" />
+      <p>Outro paragrafo</p>
+
+
     </div>
   );
 }
